@@ -235,7 +235,9 @@ background:url(./index_files/head_topgrid_2003.gif);
 .my_logo{
     margin-top:10px;
     width: 70px;
-    float:left;
+    /*float:left;*/
+    margin-left: 2px; /*new*/
+    float:right; /*new*/
 }
 
 
