@@ -20,7 +20,7 @@ img { border: none; }
   height: 13px;
   font-size: 0;
   margin: 3px 0 4px 0;
-  background-image: url('/delad/grafik/head_topgrid_2003.gif');
+  background-image: url('./index_files/head_topgrid_2003.gif');
   background-repeat: no-repeat; 
 }
 
@@ -189,7 +189,7 @@ img { border: none; }
     height: 13px;
     font-size: 1%;
     margin-bottom: 4px;
-background:url(/delad/grafik/head_topgrid_2003.gif);
+background:url(./index_files/head_topgrid_2003.gif);
   background-repeat: no-repeat; 
   background-position:right;
 }
@@ -227,12 +227,12 @@ background:url(/delad/grafik/head_topgrid_2003.gif);
 .huvud {
     height: 80px;
     width: 100%;
-    background:url(/delad/grafik/rutor2_2003.gif);
+    background:url(./index_files/rutor2_2003.gif);
     background-repeat: no-repeat;
     margin-bottom:20px;
 }
 
-.kth_logo{
+.my_logo{
     margin-top:10px;
     width: 70px;
     float:left;
@@ -249,7 +249,7 @@ background:url(/delad/grafik/head_topgrid_2003.gif);
    font-size:14px; /* var 12 */
    padding-top:10px; /* var 20px */
    font-weight:bold; /* var normal */
-/* ändringar för KTH CSC nedan */
+/* Ã¤ndringar fÃ¶r KTH CSC nedan */
 /*
    font-size:16px;
    padding: 45px 5px 0px 0px;
@@ -309,7 +309,7 @@ text-decoration: none;
     height:14px;
     font-size: 0px;
 
-    background:url(/delad/grafik/first_grid_down1_2003.gif);
+    background:url(./index_files/first_grid_down1_2003.gif);
   background-repeat: no-repeat; 
 
     background-color:#b2b3b5;
@@ -319,7 +319,7 @@ text-decoration: none;
     width:100%; 
     font-size:1%;
     height:6px;
-  background:url(/delad/grafik/first_grid_down2_2003.gif);
+  background:url(./index_files/first_grid_down2_2003.gif);
   background-repeat: no-repeat; 
   background-position:right;
 }
@@ -369,7 +369,7 @@ body{
     margin-bottom:20px;
 }
 
-img.kth_logo{
+img.my_logo{
     float:none;
     margin:0 auto;
 /*    padding-left: 255px; */  /* (634-80)/2 */
