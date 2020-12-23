@@ -276,6 +276,16 @@ text-decoration: none;
 }
 
 
+#branding-wrapper {
+float: left;
+margin-top: 45px;
+line-height: 1.5em;
+}
+#branding-wrapper:hover{
+	color: #cc6600 !important;
+
+}
+
 .sokvag_nedflyttad{    FONT-FAMILY: /*verdana, */arial, helvetica, sans-serif;
     FONT-SIZE: 10px;
     FONT-WEIGHT: normal;
