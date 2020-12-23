@@ -235,9 +235,9 @@ background:url(./index_files/head_topgrid_2003.gif);
 .my_logo{
     margin-top:10px;
     width: 70px;
-    /*float:left;*/
-    margin-left: 2px; /*new*/
-    float:right; /*new*/
+    float:left;
+    /*margin-left: 2px; /*new*/
+    /*float:right; /*new*/
 }
 
 
@@ -275,7 +275,38 @@ text-decoration: none;
     float:right;
 }
 
+/* HEADER */ /*from IM*/
+h1 {
+	font-size: 1.6em;
+	color: #252697;
+}
 
+#header {
+height: 110px;
+position: relative;
+width: 950px;
+margin-top: 0;
+margin-left:  auto;
+margin-right: auto;
+margin-bottom: 0;
+color: #252697 !important;
+}
+
+#logo-wrapper {
+ float: left;
+}
+#cz_en_flag{
+ float:left;
+ margin-top:8px
+} 
+.logo {
+margin-top: 25px;
+margin-left: 25px;
+}
+
+.logo IMG {
+height:70px;
+}
 #branding-wrapper {
 float: left;
 margin-top: 45px;
@@ -285,6 +316,39 @@ line-height: 1.5em;
 	color: #cc6600 !important;
 
 }
+h1.site-name{
+	padding: 0;
+    margin: 0;
+    color: #252697;
+}
+h1.site-name > a{
+display: inline; 
+font-weight: bold;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 120%;
+margin-left: 15px;
+position: relative;
+letter-spacing: 3px;
+color: #252697;
+}
+h1.site-name > a:hover, .site-slogan > a:hover{
+	color:#cc6600;	
+}
+
+.site-slogan {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 95%;
+line-height: 2em;
+position: relative;
+margin-left: 15px;
+letter-spacing: 2px;
+color: #252697 important;
+}
+.site-slogan > a {
+  color: #252697 important;
+}
+
+/* done from IM */
 
 .sokvag_nedflyttad{    FONT-FAMILY: /*verdana, */arial, helvetica, sans-serif;
     FONT-SIZE: 10px;
