@@ -40,7 +40,7 @@ a
   text-decoration: underline; 
   color: color:#609; 
   background-color: transparent;
-  text-decoration: none;
+/*  text-decoration: none;*/
  }
  a:active   { 
 /*  text-decoration: underline; */
@@ -74,6 +74,10 @@ a
 
 .innehall a:link, .innehall a:visited {
   COLOR: #1954A6;
+}
+
+.innehall a:hover {
+  text-decoration: underline; 
 }
 
 .innehall h1 {
