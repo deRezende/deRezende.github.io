@@ -323,7 +323,7 @@ color: #252697 !important;
  float: left;
 }
 .logo {
-margin-top: 25px;
+margin-top: 10px;
 margin-left: 25px;
 }
 
@@ -332,7 +332,7 @@ height:70px;
 }
 #branding-wrapper {
 float: left;
-margin-top: 45px;
+margin-top: 15px;
 line-height: 1.5em;
 }
 #branding-wrapper:hover{
