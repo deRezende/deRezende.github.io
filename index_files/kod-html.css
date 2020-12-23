@@ -38,6 +38,31 @@ img { border: none; }
 
 }
 
+/* start links */
+a  
+{
+	text-decoration: none;
+	color:#000;
+	font-weight: normal;
+}
+ a:visited  { 
+  color:#000 ; 
+  background-color: transparent;
+  text-decoration: none;
+ }
+ a:hover    { 
+/*  text-decoration: underline; */
+  color: color:#609; 
+  background-color: transparent;
+  text-decoration: none;
+ }
+ a:active   { 
+/*  text-decoration: underline; */
+  color: #1954A6; 
+  background-color: transparent;
+  text-decoration: none;
+ }
+/*end links*/
 
 .innehall {
    font-size:12px;
@@ -346,30 +371,6 @@ color: #252697 important;
 .site-slogan > a {
   color: #252697 important;
 }
-
-a  
-{
-	text-decoration: none;
-	color:#000;
-	font-weight: normal;
-}
- a:visited  { 
-  color:#000 ; 
-  background-color: transparent;
-  text-decoration: none;
- }
- a:hover    { 
-/*  text-decoration: underline; */
-  color: color:#609; 
-  background-color: transparent;
-  text-decoration: none;
- }
- a:active   { 
-/*  text-decoration: underline; */
-  color: #1954A6; 
-  background-color: transparent;
-  text-decoration: none;
- }
 
 /* done from IM */
 
