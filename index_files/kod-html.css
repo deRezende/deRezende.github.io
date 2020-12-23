@@ -38,7 +38,8 @@ a
  }
  a:hover    { 
   text-decoration: underline; 
-  color: color:#609; 
+  /*color: color:#609; */
+  color:#cc6600;
   background-color: transparent;
 /*  text-decoration: none;*/
  }
@@ -78,6 +79,7 @@ a
 
 .innehall a:hover {
   text-decoration: underline; 
+  color:#cc6600;
 }
 
 .innehall h1 {
