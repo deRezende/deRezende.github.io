@@ -1,12 +1,26 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<html lang="en"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
 
 <link rel="icon" href="./index_files/favicon.ico">
+<link rel="icon" type="image/png" href="./index_files/favicon.png">
 <link rel="stylesheet" type="text/css" href="./index_files/kod-html.css">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
+<!--
+<script type="text/javascript">
+        $(document).ready(function () {
+            $('.menu').jqsimplemenu();
+            $("#academy").mouseover(function() {
+                $(this).css("color","#cc6600")  
+            }).mouseout(function(){
+                $(this).css("color","#252697")  
+            });
+        });
+</script>
+-->
 
 <title>
 Susanna F. de Rezende</title>
@@ -21,26 +35,36 @@ Susanna F. de Rezende</title>
 <div class="huvudstreck_smalt"></div>
 <div class="huvud">
 
-<a href="https://www.math.cas.cz/"><img class="my_logo" alt="IM CAS logo" src="./index_files/im-logo-web_1.gif"></a>
+<!-- <a href="https://www.math.cas.cz/"><img class="my_logo" alt="IM CAS logo" src="./index_files/im-logo-web_1.gif"></a> -->
 
 <!-- <img class="huvudbild" alt="bild" src="./index_files/im-logo-web_1.gif"> -->
 
-<div id="branding-wrapper">
-    <h1 class="site-name">
-       <a href=http://www.math.cas.cz/ title="Institute of Mathematics">
-           Institute of Mathematics
-       </a>
-    </h1>        
-    <div class="site-slogan">
-       <a style="color:#252697;" id="academy" href="http://www.cas.cz/" target= "_blanc" title="of the Czech Academy of Sciences "> 
-             of the Czech Academy of Sciences    
-       </a>
-    </div> 
-</div><!-- end branding wrapper -->
+<div id="header" >
+    <div id="header-wrapper">
+        <div id="logo-wrapper">
+            <div class="logo">
+                <a href=http://www.math.cas.cz/ title="Home">
+                    <img src="http://www.math.cas.cz/image/im-logo-web_1.gif" alt="Home"></a>
+            </div>
+        </div><!-- end logo wrapper -->
+        <div id="branding-wrapper">
+            <h1 class="site-name">
+                <a href=http://www.math.cas.cz/ title="Institute of Mathematics">
+                    Institute of Mathematics
+                </a>
+            </h1>        
+            <div class="site-slogan">
+                <a href="http://www.cas.cz/" title="of the Czech Academy of Sciences "> 
+                    of the Czech Academy of Sciences    
+                </a>
+            </div> 
+        </div><!-- end branding wrapper -->
+    </div><!-- end header-wrapper -->
+ </div>
 
-<div class="huvudtext">
+<!-- <div class="huvudtext">
 <a href="https://www.math.cas.cz/">Institute of Mathematics of the<br>Czech Academy of Science</a>
-</div>
+</div> -->
 </div>
 <!-- sidhuvud slut -->
 
@@ -56,11 +80,17 @@ Susanna F. de Rezende</title>
 <a name="topofpage"></a>
 <!--eri-no-index-->
 <div class="sokvag_nedflyttad">
-<a href="https://www.cas.cz">Czech Academy of Sciences</a>
-/ <a href="https://www.math.cas.cz">Institute of Mathematics</a>
+<a href="https://www.cas.cz">CAS</a>
+/ <a href="https://www.math.cas.cz">IM</a>
 / <a href="http://www.math.cas.cz/recherche/equipe.php?id_equipe=16">MLTCS</a>
  / Susanna F. de Rezende</div>
 <!--/eri-no-index-->
+
+<!--
+<a href="https://www.cas.cz">Czech Academy of Sciences</a>
+/ <a href="https://www.math.cas.cz">Institute of Mathematics</a>
+/ <a href="http://www.math.cas.cz/recherche/equipe.php?id_equipe=16">Department of Mathematical Logic and Theoretical Computer Science</a>
+-->
 
 
 <h1>Susanna F. de Rezende</h1>
@@ -118,48 +148,52 @@ at
 	</p>
 </dl>
 
-<h2>Thesis</h2>
-<ul>
-<li>
-<a href="http://kth.diva-portal.org/smash/record.jsf?pid=diva2%3A1318061">Lower Bounds and Trade-offs in Proof Complexity</a>
-</li>
-</ul>
+
 
 <h2>Papers</h2>
 <ul>
-
+<li>
+Susanna F. de Rezende. 
+<strong><a>
+Automating Tree-Like Resolution in Time n^o(log n / log log n) Is ETH-Hard</a></strong>. 
+Submitted manuscript, 2020.
+</li>
 
 <li>
 Susanna F. de Rezende, Mika Göös, Jakob Nordström, Toniann Pitassi, Robert Robere, and Dmitry Sokolov. 
-<strong><a>
+<strong><a href="https://eccc.weizmann.ac.il/report/2020/064/">
 Automating Algebraic Proof Systems is NP-Hard</a></strong>. 
 Submitted manuscript, 2020.
 </li>
 
 <li>
 Susanna F. de Rezende, Or Meir, Jakob Nordström, Toniann Pitassi, and Robert Robere. 
-<strong><a>
+<strong><a href="https://doi.org/10.1109/FOCS46700.2020.00013">
 KRW Composition Theorems via Lifting</a></strong>. 
-Submitted manuscript, 2020.
+In
+<em>Proceedings of the 61st Annual IEEE Symposium on Foundations of Computer Science (FOCS '20)</em>,
+November 2020. 
+(<a href="https://eccc.weizmann.ac.il/report/2020/099/">Full version.</a>)
 </li>
 
 <li>
 Susanna F. de Rezende, Or Meir, Jakob Nordström, Toniann Pitassi, Robert Robere, and Marc Vinyals. 
-<strong><a href="https://arxiv.org/abs/2001.02144">
+<strong><a href="https://www.doi.org/10.1109/FOCS46700.2020.00011">
 Lifting with Simple Gadgets and Applications to Circuit and Proof Complexity</a></strong>. 
-Technical Report 2001.02144 
-<em>
-arXiv</em>, 
-2020.
+In
+<em>Proceedings of the 61st Annual IEEE Symposium on Foundations of Computer Science (FOCS '20)</em>,
+November 2020. 
+(<a href="https://eccc.weizmann.ac.il/report/2019/186/">Full version.</a>)
 </li>
 
 <li>
-Susanna F. de Rezende, Jakob Nordström, Dmitry Sokolov, and Kilian Risse. <strong><a href="https://eccc.weizmann.ac.il/report/2019/174/">
+Susanna F. de Rezende, Jakob Nordström, Dmitry Sokolov, and Kilian Risse. <strong><a href="https://doi.org/10.4230/LIPIcs.CCC.2020.28">
 Exponential Lower Bounds for Weak Pigeonhole Principle and Perfect Matching Formulas over Sparse Graphs</a></strong>. 
-Technical Report TR19-174 
+In
 <em>
-Electronic Colloquium on Computational Complexity (ECCC)</em>,
-2019.
+Proceedings of the 35th Computational Complexity Conference (CCC '20)</em>,
+July 2020.
+(<a href="https://eccc.weizmann.ac.il/report/2019/174/">Full version.</a>)
 </li>
 
 
@@ -168,7 +202,7 @@ Susanna F. de Rezende, Or Meir, Jakob Nordström, and Robert Robere. <strong><a 
 In
 <em>
 Proceedings of the 34th Computational Complexity Conference (CCC '19)</em>,
-July, 2019.
+July 2019.
 </li>
 
 <li>
@@ -176,7 +210,7 @@ Albert Atserias, Ilario Bonacina, Susanna F. de Rezende, Jakob Nordström, Massi
 <strong><a href="https://doi.org/10.1145/3188745.3188856">Clique is Hard on Average for Regular Resolution</a></strong>.
 In
 <em>Proceedings of the 50th Annual ACM Symposiumn on Theory of Computing (STOC '18)</em>,
-June 2018.
+June 2018. (<a href="https://arxiv.org/abs/2012.09476">Full version.</a>)
 </li>
 
 <li>
@@ -213,6 +247,16 @@ Susanna F. de Rezende, Cristina G. Fernandes, Daniel M. Martins, and Yoshiko Wak
 <a href="https://doi.org/10.1016/j.endm.2011.10.024"> Intersection of Longest Paths in a Graph</a>. 
 In <em> Electronic Notes in Discrete Mathematics (EuroComb '11)</em> <b>38</b> 743-748, December 2011.
 </li>
+</ul>
+	
+<h2>Thesis</h2>
+<ul>
+<li>
+PhD thesis: <a href="http://kth.diva-portal.org/smash/record.jsf?pid=diva2%3A1318061">Lower Bounds and Trade-offs in Proof Complexity</a>
+</li>
+<li>
+MSc dissertation: <a href="https://www.doi.org/10.11606/D.45.2014.tde-10092014-045127">Longest paths in graphs</a> (in Portuguese)
+</li>	
 </ul>
 
 <h2> Other </h2>
