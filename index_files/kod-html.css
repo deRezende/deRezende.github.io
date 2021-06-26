@@ -28,7 +28,7 @@ img { border: none; }
 a  
 {
 	text-decoration: none;
-	color:#1954A6;
+	color:#001933; /*#1954A6;*/
 	font-weight: normal;
 }
  a:visited  { 
@@ -45,7 +45,7 @@ a
  }
  a:active   { 
 /*  text-decoration: underline; */
-  color: #1954A6; 
+  color: #001933; /*#1954A6;*/
   background-color: transparent;
   text-decoration: none;
  }
@@ -74,7 +74,7 @@ a
 }
 
 .innehall a:link, .innehall a:visited {
-  COLOR: #1954A6;
+  COLOR: #003366; /*#1954A6;*/
 }
 
 .innehall a:hover {
