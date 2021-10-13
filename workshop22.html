@@ -1,149 +1,306 @@
-
+<!-- Add your content of head and header -->
 <!DOCTYPE html>
-<html lang="en-US" class="hide-scroll">
-	<head> 
-		    <title>Swedish ultra minimalism CSS Template Live Demo</title>
-		        <meta name="Keywords">
-			    <meta name="Description">
-			        
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="width=device-width,initial-scale=1" name="viewport">
+  <meta content="description" name="description">
+  <meta name="google" content="notranslate" />
+  <meta content="Mashup templates have been developped by Orson.io team" name="author">
+
+  <!-- Disable tap highlight on IE -->
+  <meta name="msapplication-tap-highlight" content="no">
+  
+  <link href="./assets/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="./assets/favicon.ico" rel="icon">
+
+  <title>Title page</title>  
+
+<link href="./main.97292821.css" rel="stylesheet"></head>
+
+<body>
+
+ <!-- Add your content of header -->
+<header>
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+
+      <div class="navbar-collapse">
+        <button type="button" class="close" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="./index.html#contact-section-container" title="" class="anchor-link">Contact Us</a></li>
+            <li>
+                <p>
+                    <a href="./components.html" class="btn btn-default navbar-btn" >Components</a>
+                </p>
+            </li>
+
+
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+</header>
 
 
 
-			        <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,user-scalable=no,width=device-width">
-				    <link href="//fonts.googleapis.com/css?family=Roboto|Open+Sans:200,300,400,700,800,900&amp;subset=latin" rel="preload" as="font" />
+<!-- Add your site or app content here -->
+<div class="background-image-container white-text-container" style="background-image: url('./assets/images/img-05.jpg')">
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h1>The Factory</h1>
+                <p class="">THE BEST PLACE FOR WORK TOGETHER</p>
+                <a href="#contact-section-container" class="btn btn-primary btn-lg anchor-link" title="">Get in touch</a>
+            </div>
+        </div>
+    </div>
+</div>
 
-				        <script>
-						        window.serverSettings = {
-								            fbAppId: '290410448063109',
-								            googleAppId: '13150095650-mo8psu2colep6uv90a2mu6r87u87s35a.apps.googleusercontent.com'
-								        };
-        window.isAuthenticated = 0;
-        window.logEvent = 1;
-        window.userHasAdsParams = 1;
-        window.utmSourceFromReferrer = 0;
-        window.currentLang = '';
-        window.baseUrl = 'css-templates';
-        window.currentUrl = 'css-templates';
-        var np_userId = '';
-        try {
-		            np_userId = localStorage.getItem('np_userId');
-		        } catch (err) {
-				        }
-        if (!np_userId) {
-		            function S4() {
-				                    return (((1 + Math.random()) * 0x10000) | 0).toString(16).substring(1);
-				                }
+<div class="section-container">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-md-12 section-container-spacer">
+                <h2 class="text-center">Vivamus laoreet</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-md-4">
+                <div class="fa-container">
+                    <i class="fa fa-comment-o fa-3x" aria-hidden="true"></i>
+                </div>
+                <h3 class="text-center">Consectetur</h3>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident.</p>
+            </div>
 
-		            // then to call it, plus stitch in '4' in the third group
-		            np_userId = (S4() + S4() + S4() + S4().substr(0, 3) + S4() + S4() + S4() + S4()).toLowerCase();
-		            try {
-				                    localStorage.setItem('np_userId', np_userId);
-				                    setCookie('np_userId', np_userId, 365);
-				                } catch (err) {
-							            }
-		        } else if (!readCookie('np_userId')) {
-				            setCookie('np_userId', np_userId, 365);
-				        }
+            <div class="col-xs-12 col-md-4">
+                <div class="fa-container">
+                    <i class="fa fa-heart-o fa-3x" aria-hidden="true"></i>
+                </div>
+                <h3 class="text-center">Malesuada</h3>
+                <p>Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat.</p>
+            </div>
+            <div class="col-xs-12 col-md-4">
+                <div class="fa-container">
+                    <i class="fa fa-bell-o fa-3x" aria-hidden="true"></i>
+                </div>
+                <h3 class="text-center">Phasellus</h3>
+                <p> Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat.</p>
+            </div>
+        </div>
+    </div>
+</div>
 
-        function readCookie(name) {
-		            var nameEQ = name + "=";
-		            var ca = document.cookie.split(';');
-		            for (var i = 0; i < ca.length; i++) {
-				                    var c = ca[i];
-				                    while (c.charAt(0) == ' ') c = c.substring(1, c.length);
-				                    if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
-				                }
-		            return null;
-		        }
+<div class="section-container section-half-background-image-container">
+    <div class="image-column" style="background-image: url('./assets/images/img-01.jpg')"></div>
+    <div class="container">
+        <div class="row">
+            <div class="section-label reveal">
+                <p>Coworking</p>
+            </div>
+            <div class="col-md-6 col-md-offset-6 text-column">
+                <h2>Dui augue orci</h2>
+                <h3>Lorem ipsum</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet consectetur dolor. Phasellus ut
+                    lacus tellus. In pretium lobortis blandit. Nam eu laoreet velit. Vivamus laoreet, sem nec scelerisque
+                    elementum, dui augue aliquet urna, ut bibendum purus erat ut massa. Mauris diam orci, feugiat a turpis
+                    et, congue accumsan risus. Nulla malesuada leo sodales, auctor augue quis, condimentum lacus. Phasellus
+                    sed sollicitudin quam, a bibendum urna.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet consectetur dolor. Phasellus «
+                    ut lacus » tellus. In pretium lobortis blandit.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet consectetur dolor. Phasellus ut
+                    lacus tellus. In pretium lobortis blandit.</p>
 
-        function setCookie(cname, cvalue, exdays) {
-		            var d = new Date();
-		            d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
-		            var expires = "expires=" + d.toUTCString();
-		            document.cookie = cname + "=" + cvalue + "; " + expires;
-		        }
+            </div>
+        </div>
+    </div>
+</div>
 
-        function sendAnalyticsData(eventType, props, cb) {
-		            var json = { data: {} };
-		            json.userToken = np_userId;
-		            json.data.adsParams = readCookie('AdsParameters');
-		            json.data.ga = readCookie('_ga');
-		            json.data.gac = readCookie('_gac_UA-88868916-2');
-		            json.data.userAgent = navigator.userAgent;
-		            json.data.eventType = eventType;
-		            json.data.props = props;
-		            $.ajax({
-				                    'type': 'POST',
-				                    'url': '/Feedback/SendAdsLog',
-				                    'contentType': 'application/json; charset=utf-8',
-				                    'data': JSON.stringify(json),
-				                    'dataType': 'json',
-				                    'complete': cb || function() {}
-				                });
-		        }
 
-        var isAmplitudeInitialized = false;
 
-        function initializeAmplitudeUser() {
-		            if (isAmplitudeInitialized) {
-				                    return;
-				                }
-		            isAmplitudeInitialized = true;
-		            
-		                identifyAmplitudeUser(null);
-		        }
+<div class="section-container">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-md-12 section-container-spacer">
+                <h2 class="text-center">Consectetur adipiscing</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-md-4">
+                <img src="./assets/images/img-02.jpg" alt="" class="img-responsive">
+                <h3 class="text-center">Consectetur</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet consectetur dolor. Phasellus ut
+                    lacus tellus. In pretium lobortis blandit.</p>
+            </div>
 
-        function sendAmplitudeAnalyticsData(eventName, analyticsData, userProperties, callback_function) {
-		            initializeAmplitudeUser();
+            <div class="col-xs-12 col-md-4">
+                <img src="./assets/images/img-03.jpg" alt="" class="img-responsive">
+                <h3 class="text-center">Malesuada</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet consectetur dolor. Phasellus ut
+                    lacus tellus. In pretium lobortis blandit.</p>
+            </div>
+            <div class="col-xs-12 col-md-4">
+                <img src="./assets/images/img-04.jpg" alt="" class="img-responsive">
+                <h3 class="text-center">Phasellus</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet consectetur dolor. Phasellus ut
+                    lacus tellus. In pretium lobortis blandit.</p>
+            </div>
+        </div>
+    </div>
+</div>
 
-		            if (userProperties) {
-				                    if(userProperties.utm_source || userProperties.utm_campaign) {
-							                        var identify = new amplitude.Identify();
-							                        identify.setOnce("utm_campaign", userProperties.utm_campaign);
-							                        identify.setOnce("utm_source", userProperties.utm_source);
-							                        identify.setOnce("utm_content", userProperties.utm_content);
-							                        identify.setOnce("utm_term", userProperties.utm_term);
-							                        identify.setOnce("utm_page", userProperties.utm_page);
-							                        identify.setOnce("utm_page2", userProperties.utm_page);
-							                        identify.setOnce("referrer", userProperties.referrer);
+<div class="">
+    <div class='container-fluid'>
+        <div class="row map-container">
+            <div id="map"></div>
+            <div class="col-xs-10 col-md-4 contact-block-container reveal">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6">
+                        <h3>Phone</h3>
+                        <p>+ 123 45 67 890</p>
 
-							                        amplitude.getInstance().identify(identify);
+                        <h3>E-mail</h3>
+                        <p>hello@email.com</p>
 
-							                        userProperties.utm_source_last = userProperties.utm_source;
-							                        userProperties.utm_campaign_last = userProperties.utm_campaign;
-							                        userProperties.utm_content_last = userProperties.utm_content;
-							                        userProperties.utm_term_last = userProperties.utm_term;
-							                        userProperties.utm_page_last = userProperties.utm_page;
-							                    }
+                    </div>
 
-				                    var userProps = _objeceadCookie('AdsParameters'));
-                    utmParams = getUtmParams(url);
-                    paramsFromCookie = true;
-				                    }
-		            }
+                    <div class="col-xs-12 col-sm-6">
+                        <h3>Address</h3>
+                        <p>42 rue rouelle 75015, Paris</p>
 
-            var source = url.searchParams.get("source");
-            var gclid = url.searchParams.get("gclid");
+                        <h3>Open hours</h3>
+                        <p>Mon - Fri : 9AM - 5PM</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
-            var needLogEvent = utmParams.utmSource || utmParams.utmCampaign || gclid;
-            var fullPageUrl = window.location.pathname.split('?')[0];
-            var pageUrl = clearPageUrl(fullPageUrl);
 
-            if (needLogEvent) {
-		                    var eventProps = {
-					                        "utm_source": utmParams.utmSource || source,
-					                        "utm_campaign": utmParams.utmCampaign,
-					                        "s://cdn.amplitude.com/libs/amplitude-5.2.2-min.gz.js"
-					                    ;r.onload=function(){if(!e.amplitude.runQueuedFunctions){
-								                        console.log("[Amplitude] Error: could not load SDK")}}
-					                    ;var i=t.getElementsByTagName("script")[0];i.parentNode.insertBefore(r,i)
-					                    ;funct           setActiveResponsiveButton(this);
-					                    e.preventDefault();
-					                });
-            $('#previewPhoneHorizontalBtn').click(function (e) {
-		                    setLivePreviewFrameSize($(this));
-		                    setActiveResponsiveButton(this);
-		                    e.preventDefault();
-		                });
-            $('#previewPhoneBtn').click(function (e) {
-		               
+<div class="section-container" id="contact-section-container">
+    <div class="container contact-form-container">
+        <div class="row">
+            <div class="col-xs-12 col-md-offset-2 col-md-8">
+                <div class="section-container-spacer">
+                    <h2 class="text-center">Get in touch</h2>
+                </div>
+                <form action="">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input type="text" name="name" class="form-control" placeholder="Name">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input type="email" name="email" class="form-control" placeholder="Email">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <textarea class="form-control" rows="3" placeholder="Enter your message"></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="checkbox-inline">
+                            <input type="checkbox" id="inlineCheckbox1" value="option1">Email me a copy
+                        </label>
+                        <label class="checkbox-inline">
+                            <input type="checkbox" id="inlineCheckbox2" value="option2">I am a human
+                        </label>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Send message</button>
+                    <a href="" class="btn btn-default">Reset</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function (event) {
+    
+  googleMapInit(); 
+  scrollToAnchor();
+  scrollRevelation('reveal');
+});
+</script>
+
+<footer class="footer-container white-text-container">
+    <div class="container">
+        <div class="row">
+                <div class="col-md-4">
+                    <h4>About us</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet consectetur dolor</p>
+                </div>
+
+                <div class="col-md-4">
+                    <h4>Do you like ? Share this !</h4>
+                    <div>
+                        <p>
+                            <a href="https://www.twitter.com" class="fa-icon" title="">
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                        </a>
+                            <a href="https://www.facebook.com" class="fa-icon" title="">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                            </a>
+                            <a href="https://www.linkedin.com" class="fa-icon" title="">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                        </p>
+                    </div>
+                    <div>
+                        <p><small>© Untitled | Website created with <a href="http://www.mashup-template.com/" title="Create website with free html template">Mashup Template</a>/<a href="https://www.unsplash.com/" title="Beautiful Free Images">Unsplash</a></small></p>
+                    </div>
+
+                </div>
+
+                <div class="col-md-4">
+                        
+                    <h4>Subscribe to newsletter</h4>
+                    
+                    <div class="form-group">
+                        <div class="input-group">
+                            <input type="text" class="form-control footer-input-text">
+                            <div class="input-group-btn">
+                                <button type="button" class="btn btn-default btn-newsletter ">OK</button>
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+        </div>
+    </div>
+</footer>
+
+<script>
+document.addEventListener("DOMContentLoaded", function (event) {
+  navbarToggleSidebar();
+});
+</script>
+
+
+<script type="text/javascript" src="./main.faaf51f9.js"></script>
