@@ -71,6 +71,8 @@ body {
   overflow-wrap: break-word;
 }
 
+span.nobr { white-space: nowrap; }
+
 /* Make the header bg full width, but the content inline with body */
 header {
   background: var(--accent-bg);
