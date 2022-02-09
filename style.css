@@ -26,6 +26,10 @@
   --preformatted: #444;
   --marked: #FFDD33;
   --disabled: #EFEFEF;
+  --link: #171C83; /*#1954A6;*/
+  --link-visited: #171C83;
+  --link-hover: #cc6600;
+  --link-active: #003366;
 }
 
 /* Dark theme */
@@ -41,6 +45,10 @@
     --code: #F06292;
     --preformatted: #CCC;
     --disabled: #111;
+    --link: #F8B1A2;
+    --link-visited: #1954A6;
+    --link-hover: #cc6600;
+    --link-active: #003366;
   }
 
   img, video {
@@ -180,24 +188,23 @@ h6 {
 /* start links */
 a  {
   text-decoration: none;
-  color:#171C83; /*#1954A6;*/
+  color: var(--link); 
   font-weight: normal;
  }
  a:visited  { 
-  color: #171C83; 
+  color: var(--link-visited); 
   background-color: transparent;
   text-decoration: none;
  }
  a:hover    { 
   text-decoration: underline; 
-  /*color: color:#609; */
-  color:#cc6600;
+  color: var(--link-hover);
   background-color: transparent;
 /*  text-decoration: none;*/
  }
  a:active   { 
 /*  text-decoration: underline; */
-  color: #003366; /*#1954A6;*/
+  color: var(--link-active); 
   background-color: transparent;
   text-decoration: none;
  }
