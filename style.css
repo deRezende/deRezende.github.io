@@ -27,7 +27,7 @@
   --marked: #FFDD33;
   --disabled: #EFEFEF;
   --link: #1954A6; /*#171C83; /*#1954A6;*/
-  --link-visited: #C65832; /*#171C83;*/
+  --link-visited: #1954A6; /*#171C83;*/
   --link-hover: #cc6600;
   --link-active: #003366;
 }
@@ -45,7 +45,7 @@
     --code: #F06292;
     --preformatted: #CCC;
     --disabled: #111;
-    --link: #F8B1A2;
+    --link: #1954A6;
     --link-visited: #1954A6;
     --link-hover: #cc6600;
     --link-active: #003366;
