@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="900" height="512" viewBox="0 0 900 512" fill="none"
+     xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Delta Sigma Directed Graph Logo</title>
+  <desc id="desc">Editable SVG logo showing Greek letters Delta and Sigma built from directed 
+  graph edges and nodes.</desc>
+
+  <defs>
+   <!-- Tiny subtle arrowheads -->
+    <marker id="arrow-navy" markerWidth="4" markerHeight="4"
+            refX="2" refY="2"
+            orient="auto">
+      <path d="M 0 0 L 4 2 L 0 4 z" fill="#0B2A5B"/>
+    </marker>
+
+    <marker id="arrow-blue" markerWidth="4" markerHeight="4"
+            refX="2" refY="2"
+            orient="auto">
+      <path d="M 0 0 L 4 2 L 0 4 z" fill="#0077A3"/>
+    </marker>
+    
+    <style>
+      .edge-delta {
+        stroke: #0B2A5B;
+        stroke-width: 20;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        marker-end: url(#arrow-navy);
+      }
+
+      .edge-sigma {
+        stroke: #0077A3;
+        stroke-width: 20;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        marker-end: url(#arrow-blue);
+      }
+
+      .node-delta {
+        fill: #0B2A5B;
+      }
+
+      .node-sigma {
+        fill: #0077A3;
+      }
+
+      .label {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        font-size: 34px;
+        font-weight: 700;
+        fill: #1F2937;
+      }
+    </style>
+  </defs>
+
+  <!-- Background can be removed or changed -->
+  <rect width="1024" height="512" rx="48" fill="#FFFFFF"/>
+
+  <!-- Delta: triangular directed graph -->
+  <g id="delta" transform="translate(80, 48)">
+    <!-- edges -->
+    <path class="edge-delta" d="M 360 360 L 120 360"/>
+    <path class="edge-delta" d="M 60 360 L 180 130"/>
+    <path class="edge-delta" d="M 210 80 L 330 305"/>
+
+    <!-- nodes -->
+    <circle class="node-delta" cx="210" cy="80" r="30"/>
+    <circle class="node-delta" cx="60" cy="360" r="30"/>
+    <circle class="node-delta" cx="360" cy="360" r="30"/>
+  </g>
+
+  <!-- Sigma: zig-zag directed graph -->
+  <g id="sigma" transform="translate(440, 48)">
+    <!-- edges -->
+    <path class="edge-sigma" d="M 320 80 L 140 80"/>
+    <path class="edge-sigma" d="M 80 80 L 200 180"/>
+    <path class="edge-sigma" d="M 240 220 L 120 320"/>
+    <path class="edge-sigma" d="M 80 360 L 260 360"/>
+
+    <!-- nodes -->
+    <circle class="node-sigma" cx="80" cy="80" r="30"/>
+    <circle class="node-sigma" cx="320" cy="80" r="30"/>
+    <circle class="node-sigma" cx="240" cy="220" r="30"/>
+    <circle class="node-sigma" cx="80" cy="360" r="30"/>
+    <circle class="node-sigma" cx="320" cy="360" r="30"/>
+  </g>
+
+</svg>
